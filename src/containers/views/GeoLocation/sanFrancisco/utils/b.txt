@@ -1,0 +1,20 @@
+{
+  map: 'guangdong',
+  aspectScale: 0.9,
+  roam: false, // 是否允许缩放
+  zoom, // 默认显示级别
+  layoutSize: '95%',
+  layoutCenter: ['55%', '50%'],
+  itemStyle: {
+    normal: {
+      borderColor: 'rgba(192,245,249,.6)',
+      borderWidth: 2,
+      shadowColor: '#2C99F6',
+      shadowOffsetY: 0,
+      shadowBlur: 120,
+      areaColor: 'rgba(29,85,139,.2)',
+    },
+  },
+  zlevel: 2,
+  silent: true,
+}

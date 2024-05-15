@@ -1,0 +1,62 @@
+{
+  map: 'guangdong',
+  aspectScale: 0.9,
+  roam: false, // 是否允许缩放
+  zoom, // 默认显示级别
+  layoutSize: '95%',
+  layoutCenter: ['55%', '50%'],
+  itemStyle: {
+    normal: {
+      areaColor: {
+        type: 'linear-gradient',
+        x: 0,
+        y: 400,
+        x2: 0,
+        y2: 0,
+        colorStops: [
+          {
+            offset: 0,
+            color: 'rgba(37,108,190,0.3)', // 0% 处的颜色
+          },
+          {
+            offset: 1,
+            color: 'rgba(15,169,195,0.3)', // 50% 处的颜色
+          },
+        ],
+        global: true, // 缺省为 false
+      },
+      borderColor: '#4ecee6',
+      borderWidth: 1,
+    },
+    emphasis: {
+      areaColor: {
+        type: 'linear-gradient',
+        x: 0,
+        y: 300,
+        x2: 0,
+        y2: 0,
+        colorStops: [
+          {
+            offset: 0,
+            color: 'rgba(37,108,190,1)', // 0% 处的颜色
+          },
+          {
+            offset: 1,
+            color: 'rgba(15,169,195,1)', // 50% 处的颜色
+          },
+        ],
+        global: true, // 缺省为 false
+      },
+    },
+  },
+  emphasis: {
+    itemStyle: {
+      areaColor: '#0160AD',
+    },
+    label: {
+      show: 0,
+      color: '#fff',
+    },
+  },
+  zlevel: 3,
+}

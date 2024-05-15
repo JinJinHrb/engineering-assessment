@@ -38,7 +38,7 @@ export const menu: IMenu[] = [
   {
     id: 2,
     path: '/antd-lab',
-    title: 'Antd Lab',
+    title: 'Details',
     icon: <CodeSandboxOutlined />,
     component: 'AntdLab',
     exact: true,
